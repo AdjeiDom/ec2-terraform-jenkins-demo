@@ -35,7 +35,7 @@ resource "aws_network_interface" "prime_netwk_interface" {
 }
 
 resource "aws_instance" "ec2-terraform-demo" {
-  ami           = "ami-04706e771f950937f" # eu-west-2
+  ami           = "ami-00950d2c99bfd49a6" # eu-west-2
   instance_type = "t2.micro"
 
   /* network_interface {
